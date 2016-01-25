@@ -1577,7 +1577,7 @@ input[type="tel"] {
 	.navigation--social {
 		margin-top: 5px;
 		margin-left: 0; } }
-@media all and (max-width: 400px) {
+@media all and (max-width: 300px) {
 	.btn-mobile-menu {
 		display: block; }
 
@@ -1666,7 +1666,7 @@ input[type="tel"] {
 	.navigation__item {
 		width: 100%;
 		margin: 0 0 .4em 0; } }
-@media all and (max-width: 340px) {
+@media all and (max-width: 240px) {
 	.panel-main__inner {
 		padding: 0 5%; }
 
