@@ -84,7 +84,8 @@ p a:hover:after {
 }
 @media all and (max-width:50rem) {
 	.main-content {
-		padding: 0 1rem
+		padding: 0 1rem;
+		padding-top: 2rem;
 	}
 }
 .site-header {
@@ -395,11 +396,11 @@ p a:hover:after {
 }
 @media all and (max-width:50rem) {
 	.about .about-avatar {
-		float: none
+		float: none;
 	}
 }
 .about .about-avatar img {
-	border-radius: 50%
+	border-radius: 50%;
 }
 .about .about-main {
 	font-size: 2rem;
@@ -426,14 +427,14 @@ p a:hover:after {
 	}
 }
 .blog-index {
-	list-style: none
+	list-style: none;
 }
 .blog-index .post-preview {
-	margin-bottom: 4rem
+	margin-bottom: 4rem;
 }
 .blog-index .post-preview .post-title {
 	font-size: 2rem;
-	line-height: 1
+	line-height: 1;
 }
 .blog-index .post-preview .post-title h2 {
 	position: relative;
@@ -448,37 +449,37 @@ p a:hover:after {
 	right: 0;
 	height: 3px;
 	background: #333;
-	z-index: -1
+	z-index: -1;
 }
 .blog-index .post-preview .post-time {
-	margin-bottom: 1rem
+	margin-bottom: 1rem;
 }
 .blog-index .post-preview .post-time label {
-	font-weight: 400
+	font-weight: 400;
 }
 .blog-index .post-preview .post-excerpt {
 	font-size: 1.5rem;
 	margin-bottom: 1rem;
-	line-height: 1.5
+	line-height: 1.5;
 }
 @media all and (max-width:50rem) {
 	.blog-index .post-preview .post-excerpt {
-		font-size: 1.2rem
+		font-size: 1.2rem;
 	}
 }
 @media all and (max-width:50rem) {
 	.blog-index .post-preview .post-excerpt {
-		display: none
+		display: none;
 	}
 }
 .blog-index .post-preview .post-link {
 	font-size: 1.5rem;
 	display: inline-block;
-	position: relative
+	position: relative;
 }
 @media all and (max-width:50rem) {
 	.blog-index .post-preview .post-link {
-		font-size: 1.2rem
+		font-size: 1.2rem;
 	}
 }
 .blog-index .post-preview .post-link:after {
@@ -491,26 +492,26 @@ p a:hover:after {
 	background: #333;
 	transform-origin: 100%;
 	transform: scaleX(0);
-	transition: transform 0.25s
+	transition: transform 0.25s;
 }
 .blog-index .post-preview .post-link:hover:after {
 	transform-origin: 0;
-	transform: scaleX(1)
+	transform: scaleX(1);
 }
 @media all and (max-width:50rem) {
 	.blog-index .post-preview .post-link {
-		display: none
+		display: none;
 	}
 }
 .post .post-header {
-	margin-bottom: 3rem
+	margin-bottom: 3rem;
 }
 .post .post-header .post-title {
 	position: relative;
 	text-shadow: 3px 0 0 #FFF, -3px 0 0 #FFF, 0 3px 0 #FFF, 0 -3px 0 #FFF;
 	margin-bottom: 0.5rem;
 	font-size: 3rem;
-	line-height: 1
+	line-height: 1;
 }
 .post .post-header .post-title:after {
 	content: "";
@@ -520,52 +521,52 @@ p a:hover:after {
 	right: 0;
 	height: 3px;
 	background: #333;
-	z-index: -1
+	z-index: -1;
 }
 .post .post-header .post-time {
 	margin-bottom: 1rem;
-	margin-right: 0.5rem
+	margin-right: 0.5rem;
 }
 .post .post-header .post-time label {
-	font-weight: 400
+	font-weight: 400;
 }
 .post .post-content {
-	font-size: 1.5rem
+	font-size: 1.5rem;
 }
 @media all and (max-width:50rem) {
 	.post .post-content {
-		font-size: 1.2rem
+		font-size: 1.2rem;
 	}
 }
 .post .post-content h2 {
-	margin-bottom: 0.5rem
+	margin-bottom: 0.5rem;
 }
 .post .post-content p, .post .post-content .highlight {
-	margin-bottom: 2rem
+	margin-bottom: 2rem;
 }
 .post .post-content img {
 	width: 100%
 }
 .post .post-content code {
-	font-family: consolas, monospace
+	font-family: consolas, monospace;
 }
 .post .post-content .highlight {
 	padding: 1rem;
 	border-left: 0.5rem solid #333;
-	overflow-x: scroll
+	overflow-x: scroll;
 }
 .not-found {
 	margin-top: 100px;
-	text-align: center
+	text-align: center;
 }
 @media all and (max-width:50rem) {
 	.not-found {
 		margin-top: 1rem;
-		text-align: left
+		text-align: left;
 	}
 }
 .not-found h1 {
-	font-size: 8rem
+	font-size: 8rem;
 }
 .not-found a {
 	font-size: 1.5rem;
@@ -577,20 +578,20 @@ p a:hover:after {
 	transition: all 0.25s;
 	display: block;
 	width: 50%;
-	margin: 5rem auto
+	margin: 5rem auto;
 }
 @media all and (max-width:50rem) {
 	.not-found a {
-		font-size: 1.2rem
+		font-size: 1.2rem;
 	}
 }
 .not-found a:hover {
 	background: #333;
 	color: #FFF;
-	text-decoration: none
+	text-decoration: none;
 }
 @media all and (max-width:50rem) {
 	.not-found a {
-		width: 100%
+		width: 100%;
 	}
 }
