@@ -380,14 +380,11 @@ p a:hover:after {
 	top: 0;
 	left: 0;
 	width: 100%;
-	padding: 2rem
+	padding: 2rem;
 }
 @media all and (max-width:50rem) {
 	.about {
-		position: static;
-		margin-top: 1rem;
-		padding: 0;
-		text-align: center
+		text-align: center;
 	}
 }
 .about .about-avatar {
@@ -406,6 +403,11 @@ p a:hover:after {
 	font-size: 2rem;
 	height: 16rem;
 	position: relative;
+}
+@media all and (max-width:50rem) {
+	.about .about-main {
+		height: auto;
+	}
 }
 .about .about-main .about-title {
 	margin-bottom: 2rem;
