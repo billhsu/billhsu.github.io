@@ -26,7 +26,7 @@
                 </header>
                 <aside class="profile-summary">
                     <div class="summary-location summary-module">
-                        <a href="https://billhsu.github.io">billhsu.github.io</a>
+                        <a href="https://billhsu.github.io" id="homepage_link">billhsu.github.io</a>
                     </div>
                 </aside>
             </section>
@@ -205,6 +205,12 @@
 
     ga('create', 'UA-72860217-1', 'auto');
     ga('send', 'pageview');
+    </script>
+    <script type="text/javascript">
+        if (window.location.hostname != "") {
+            document.getElementById("homepage_link").href = "http://" + window.location.hostname
+            document.getElementById("homepage_link").innerHTML = window.location.hostname
+        }
     </script>
 </body>
 
