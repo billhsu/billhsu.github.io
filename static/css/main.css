@@ -597,3 +597,22 @@ p a:hover:after {
 		width: 100%;
 	}
 }
+
+.badge {
+   position:relative;
+}
+.badge[data-badge]:after {
+   content:attr(data-badge);
+   position:absolute;
+   top:-10px;
+   right:-10px;
+   font-size:.3em;
+   background:#FF6B6B;
+   color:white;
+   width:18px;
+   height:18px;
+   text-align:center;
+   line-height:18px;
+   border-radius:50%;
+   box-shadow:0 0 1px #333;
+}
